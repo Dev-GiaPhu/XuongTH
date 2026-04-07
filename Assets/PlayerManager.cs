@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
     public float jumpForce = 5f;   
 
     [Header("Player Stats")]
-    public bool health = 3;          
+    public float health = 3;          
     public float coins = 0;           
 
     [Header("Ground Check")]
