@@ -7,12 +7,12 @@ public class PlayerManager : MonoBehaviour
     //Hãy sửa lại dòng nãy hợp lý, mỗi thành viên sẽ thay phiên nhau dùng int hoặc float. 
     //Sau đó kiểm tra những phần còn thiếu khác để script có thể hoạt động bình thường
     
-    public float moveSpeed = 5f;      
-    public float jumpForce = 5f;   
+    public float moveSpeed;      
+    public float jumpForce;   
 
     [Header("Player Stats")]
-    public bool health = 3;          
-    public float coins = 0;           
+    public int health = 3;          
+    public int coins = 0;           
 
     [Header("Ground Check")]
     public Transform groundCheck;   
